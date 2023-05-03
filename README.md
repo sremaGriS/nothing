@@ -1,7 +1,7 @@
 # Sandboxels
 A falling sand simulation game.
 
-Play at [sremaGriS.github.io/nothing](sremaGriS.github.io/nothing).
+Play at [sremaGriS.github.io/nothing](https://sremagris.github.io/nothing/).
 
 Join the [Discord server](https://discord.com/invite/ejUc6YPQuS).
 
