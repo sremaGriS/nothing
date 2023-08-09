@@ -1,9 +1,261 @@
 [Future Plans]
     + Save Gallery
     + Human Update
-    + Suggest new additions at https://link.r74n.com/sandboxels-feedback
+    + Suggest new additions at https://link.R74n.com/sandboxels-feedback
 
 See sneak peaks for upcoming updates on the Discord: https://discord.gg/ejUc6YPQuS
+
+A fancier version of this changelog can be found here: https://sandboxels.R74n.com/changelog
+
+[Version 1.8.5 - July 27, 2023]
+    + Drag tool
+    + Tree color variety (8 variants!)
+    ~ Mobile UI improvements
+    + Warp (Special)
+    + Crumb (Hidden, from broken foods)
+    + Skin (Solid)
+    + Hair (Hidden)
+   [States]
+    + Soda Ice (Hidden)
+    + Bleach Ice (Hidden)
+    + Frozen Vinegar (Hidden)
+    + Amber (Hidden, frozen Sap)
+    + Perfume (Hidden, liquid Fragrance)
+    + Liquid Stench (Hidden)
+   [Changes]
+    + Molten Dirt can solidify into some Rock
+    + Tools have descriptions on info page
+    + Oil dirties Water
+    + Humans will panic and run when burning
+    + Rad Shards and Molten Rad Glass can produce radiation
+    + Light and Laser retain color when liquified
+    + Slag can be formed with Dirt
+    + Slag can break into Gravel
+    + Corn breaks into Flour
+    + Mushrooms can release Poison when broken
+    + Poison and Antidote can wet soil
+    + Juice can wet Flour
+    + Blood can oxidize Iron and Copper
+    + Fallout will infect Blood
+    + Birds turn to white meat when cooked
+    + Birds smash into Blood
+    + Cacti can be killed by Vinegar, Bleach, Baking Soda, and Alcohol
+    + Humans can be killed by Poison and Cyanide
+    + Cells can be killed by Plague, Soap, Mercury, Chlorine, and Cyanide
+    + Dioxin can kill Plants, Grass, Vines, Saplings, and Cacti
+    + Vinegar can kill Frogs slowly
+    + Vinegar can kill Grass
+    + Algae dies at hot and cold temperatures
+    + Dust will burn at high temperatures
+    + Melted Wax will break down at high temperatures
+    + Uranium conducts electricity
+    + Unburn tool can put out Embers and Torches
+    + Bless turns Static to Rainbow
+    + Static conducts electricity
+    + Grapes can turn Water into Juice
+    + Primordial Soup can wet Clay Soil
+    + Hydrogen produces heat during fusion
+    + Helium, Hydrogen, and Mercury Gas glow when electrified
+    + Cactus and Liquid Light random events
+    + Cement can be made with Slaked Lime
+    ~ Recolored Slaked Lime
+    ~ Placing Petals or Mushroom Caps now picks a random color
+    ~ Unhid Petal
+    ~ Hid Root
+    ~ Moved Bamboo to Solids
+    ~ Moved Steel
+    ~ Moved Melted Cheese, Butter, and Chocolate to States
+    ~ Moved Liquid Hydrogen, Helium, and Neon to States
+    ~ States category always appears last if unhidden
+    ~ Humans rot more randomly
+    ~ Bamboo Plant grows faster
+    ~ Worms no longer break Eggs
+    ~ Strange Matter can no longer travel through indestructible things
+    ~ Strange Matter can no longer destroy Void
+    ~ Tweaked Molten Uranium radiation rate
+   [Fixes]
+    ~ Fixed: Alt-Tab locks Alt key
+    ~ Fixed: Cacti break into Sap
+    ~ Fixed: Cream deletes infinite Soda and Juice
+    ~ Fixed: Null in info page error (e.g. tea)
+    ~ Fixed: Unknown element in info page error (e.g. salt)
+    ~ Fixed: Reactions, related, and aliases don't show up in tool info pages
+    ~ Capitalization fixes
+   [Technical]
+    + Element properties onSelect, onMouseUp, perTick, singleColor
+    ~ Element property fireElement can accept null
+
+[Version 1.8.4 - July 11, 2023]
+    + Image placing
+        + Image tool in Special
+        + Select any image from your computer
+        + Place it on the canvas at any scale
+        + Choose its element or disable smoothing in Settings
+        + Burn it, blow it up, or make it a powder!
+        + Paste or Drag-and-Drop images!
+   [Bug Fixes]
+    ~ Fixed: Old browsers that don't support ECMAScript 2016 crash
+   Stay tuned for bigger updates in the coming months!
+
+[Version 1.8.3 - May 26, 2023 - Deserted Update]
+    + Cactus
+    + Fancy Changelog and Controls pages
+    + Toggle Burning setting
+    + Broth Ice (Hidden)
+    + Rad Shard (Hidden)
+    + Linked to our official Sandboxels Wiki on wiki.gg (https://sandboxels.wiki.gg/)
+   [Changes]
+    + Cacti and Charcoal now spawn in Desert world gen
+    + Petals will fall slowly if detached from flower
+    + Pointer color can be customized
+    + Bless grows Grass on Dirt
+    + Frogs can somewhat swim
+    + Pool Water can kill Frogs and Seeds
+    + Pool Water will break down Blood and Poison
+    + Cream releases Steam when boiling
+    + Cream can wet soil
+    + Popcorn pops when made from Corn
+    + Melted Butter stains solids
+    + Mushroom parts break into Mycelium
+    + Eggs melting leaves behind Sulfur Gas
+    + Eggs won't break when dropped on soft material
+    + Bless turns Molten Lead to Molten Gold
+    + Unique fire colors for Molten Copper, Lead, Zinc, Salt, and Calcium
+    + Broth can be made from Bones and Mushroom parts
+    + Unique Broth color for soups with Flowers, Potato, Rotten Meat, Cheese, Beans, Wheat, Algae
+    + Milk and Cream can be churned to Butter
+    + Rats can eat Eggnog
+    + Fish eat Yolk and Cell
+    + Ants can drink Juice
+    + Soap kills bugs
+    + Ozone kills Plant
+    + Charcoal, Roots, Hyphae, and Amalgam conduct electricity
+    + Rad Glass has a texture when placed manually
+    + Rad Glass can be made with Fallout
+    + LEDs melt into Gallium
+    + Molten Calcium can burn
+    + Salt alias 'Sodium Chloride'
+    + Anesthesia alias 'Nitrous Oxide'
+    + Anesthesia turns Clouds to Acid Clouds
+    + Anesthesia depletes Ozone
+    + Sulfur alias 'Sulphur'
+    + TNT alias 'Trinitrotoluene'
+    + DNA alias 'Deoxyribonucleic Acid'
+    + DNA from Cancer appears corrupted
+    + Potatoes can explode when radiated
+    + Cellulose freezes into Paper
+    + Bees can be crushed into Honey
+    + Bamboo and Vines can convert Carbon Dioxide to Oxygen
+    + Flour can be wet by Pool Water, Milk, Cream, Broth, Soda, Tea, Blood, Antibody, and Infection
+    + Slag can be made with Smog, Pyrocumulus, Dioxin, and Poison Gas
+    + Cream changes color when mixed with Milk variant ingredients
+    + Radiation affects Aluminum, Pool Water, Soda, Broth, and Tea
+    + Pistils can be broken
+    + Sugar and Candy dissolve in Soda
+    + Bleach and Yeast reaction generates heat
+    + Bleach and Soap reaction
+    + Bleach breaks down Antidote
+    + Sponge creates Bubbles when absorbing Soap
+    ~ Potatoes, Straw, Wheat, and Worms burn slower
+    ~ Sap boils at a lower point
+    ~ Strange Matter is now a liquid
+    ~ Bless turns Soda into Seltzer
+    ~ Cellulose burns less
+    ~ Recolored Frozen Meat
+    ~ Adjusted Sulfur Gas density
+    ~ Adjusted Molten Gallium density
+   [Bug Fixes]
+    ~ Fixed: Grape Juice and Potato Juice turns yellow when frozen
+    ~ Fixed: Color-customizable elements don't show selector if hidden
+    ~ Fixed: Foam created by other foam takes air temperature
+   [Technical]
+    + Element property glow for gas effect (true/false)
+    + LIGHTWEIGHT behavior preset
+    + Reaction properties burning1 and burning2 requirement (true/false)
+    ~ Seeds element now uses eLists.SEEDS
+
+[Version 1.8.2 - May 12, 2023 - Very Necessary Update]
+    + Lettuce
+    + Liquid Light at absolute zero (Hidden)
+    + Ice Cream (Frozen Milk)
+    + Baked Potato (Hidden)
+    + Bricks and Glass have a texture when placed
+    + Clay Shard
+    + Frozen Fish (Hidden, 25% chance)
+    ~ Smash is now located on the toolbar
+    + Press R to reset scene
+    + Toggle buttons in Settings
+    + Fancy Textures setting
+    + Default View setting for mobile
+    + Air Temp, Air Density, and Abs Zero settings
+    + Mushrooms world gen type
+   [Changes]
+    ~ Liquid Helium now has new superfluid behavior
+    ~ Burning now stops below 0°C
+    ~ Porcelain unhidden in Solids
+    ~ Porcelain won't mix unless Shift is held
+    ~ Optimized and buffed Strange Matter
+    + Strange Matter ignores Fire and Smoke, can be destroyed by Antimatter
+    + Bless warms pixels below -200°C
+    + Humans will try to regulate their body temperature
+    + Humans can eat food
+    + Bones and Dead Plants can turn into fossil fuels under right conditions
+    + Charcoal can turn into Diamonds under right conditions
+    + Sugar and Milk can dissolve in Tea
+    + Mixing Cement will reset the time until solidification
+    + Termites can dig through soil
+    + Potatoes can fall to the side
+    + Potatoes break into Juice
+    + Borax and Glue makes Slime
+    + Incense gives off Smoke when burning
+    + Herbs give off Fragrance when burnt
+    + Flying Bugs and Birds can be crushed by falling Rocks
+    + Fish can eat Broth, Slugs, Herbs, Lettuce, Dead Plants, Lichen, Yeast, Yogurt, and Tea
+    + Snails, Algae, Gravel, and Charcoal can clean Broth and Tea
+    + Worms can break down Lichen
+    + Worms can eat Yolk
+    + Gingerbread can be made with Flour and Sap or Caramel
+    + Infection, Antibody, and Vaccine will wet soil
+    + Radiation affects Milk variants
+    + Malware messes with more machines
+    + Copper Sulfate can be used as pesticide
+    + Bubbles and Foam remove Stench
+    + Bless can convert Lead to Gold
+    + Tea can be made from Wheat
+    + Uncharge tool converts Protons to Neutrons
+    + Uncharge tool deletes Electric
+    + Unburn tool converts Plasma to Smoke
+    + GitHub linked in Mod Manager
+    ~ Herbs burn slower
+    ~ Tweaked Rad Glass color
+    ~ Tweaked Dough color
+    ~ Tweaked Lookup tool color to be like Glass
+    ~ Pick, Mix, Shock, Mushroom Spore, Iron, and Gray Goo now have dark text
+    ~ Settings menu is taller
+    ~ Reset warning no longer appears if scene is empty
+    ~ Ember cools into Ash
+    ~ Firework Ember cools into Carbon Dioxide
+    ~ Acid ignores Hydrogen
+    ~ Renamed Nitroglycerin to Nitro
+    + Frozen Nitro (Hidden)
+    + Cream (Hidden)
+   [Bug Fixes]
+    ~ Fixed: Background color setting input not syncing after refresh
+    ~ Fixed: Pixels from Spout don't inherit temperature
+    ~ Fixed: Stats bar makes GUI jumpy on mobile
+    ~ Fixed: Sponge doesn't conduct heat
+    ~ Fixed: Flies no longer electrocute
+    ~ Fixed: Sun heat transfer dependent on phase
+    ~ Fixed: Neutrons/Protons/Blessing Strange Matter can make ghost pixels
+   [Technical]
+    + colorPattern and colorKey element properties (see Brick)
+    + SUPERFLUID behavior preset
+    + Absolute Zero is now controlled with global variable absoluteZero
+    + fireElement element property accepts an array of elements
+    + breakInto element property accepts null values
+    + Uncharge tool supports reactions
+    + stateLowColorMultiplier element attribute for Ice Cream
+    + darkText element attribute for buttons (true/false)
 
 [Version 1.8.1 - April 14, 2023 - Striking Detail]
     + Lightning (!!!)
@@ -150,8 +402,8 @@ See sneak peaks for upcoming updates on the Discord: https://discord.gg/ejUc6YPQ
     ~ Fixed: Canvas overflows on the right on mobile
    [Technical]
     + onMix element attribute function(pixel1,pixel2)
-    + isFood element attribute for dough/batter mixing
-    + stateHighColorMultiplier element attribute for batter
+    + isFood element attribute for Dough/Batter mixing
+    + stateHighColorMultiplier element attribute for Batter
 
 [Version 1.7.1 - January 8, 2023]
     + Walls and Glass aren't affected by Mix unless holding Shift
